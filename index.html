@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Profile & Loss Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Stock Profile & Loss Calculator</h1>
+    </header>
+    <main>
+        <div>
+            <label class="lbl" for="initial-price">
+                Intial Price</label>
+                <input
+            class="input"
+            type="text"
+            id="initial-price"
+            placeholder="Initial Price"
+            />
+                
+            </div>
+            <div>
+                <label class="lbl" for="stocks-quantity">
+                  Quantity of Stocks
+              </label>
+                  <input
+                    class="input"
+                    type="text"
+                    id="stocks-quantity"
+                    placeholder="Number of Stocks"
+                  />
+            </div>
+
+            <div>
+                <label class="lbl" for="current-price"
+                  >Current Price</label>
+                  <input
+                    class="input"
+                    type="text"
+                    id="current-price"
+                    placeholder="Current Price"
+                />
+            </div>
+      <button id="submit-btn" class="btn-check">Tell Me!!</button>
+
+      <div id="output-box" class="output"></div>
+    </main>
+    <footer>
+        <h2>Find Me At</h2>
+        <div class="social-links">
+            <a  href="https://github.com/Tejinder15" target="_blank"><i class="fab fa-github"></i></a>
+            <a  href="https://www.linkedin.com/in/tajinder-singh-2a0618221" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
